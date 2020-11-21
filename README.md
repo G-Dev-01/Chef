@@ -13,7 +13,7 @@ Using 'key words' your search will return listings of beautifully illustrated re
 
 Each recipe provides a list of the ingridients, preparation instructions, as well as detailed nutritional information taking into account special dietary requirements.
 
-Planning your dinner event starts with a simple search at THE CHEF!!!
+Planning your dinner event starts with a simple search at The Chef!!!
 
 
 

@@ -1,0 +1,7 @@
+.section {
+    height: 460px;
+    background: url("../images/white_logo_dark_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}

@@ -1,7 +1,21 @@
 .section {
-    height: 460px;
-    background: url("../images/white_logo_dark_background.jpg");
+    height: 500px;
+    background: url("../images/christmas-board.jpg");
+    background-color: burlywood;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
+}
+
+.search{
+    
+    padding: 280px 5px 5px 100px;
+    color: whitesmoke;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    text-align: justify;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px black;  
 }

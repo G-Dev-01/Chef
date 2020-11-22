@@ -7,15 +7,33 @@
     background-size: cover;  
 }
 
-.search{
+.text {
     
-    padding: 285px 5px 5px 16px;
+    padding: 295px 5px 5px 5px;
     color: whitesmoke;
     font-family: cursive;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
     text-align: justify;
     letter-spacing: 3px;
     text-shadow: 2px 2px black;  
+}
+
+.searchbox {
+    position: absolute;
+    left:0%;
+    transform: translate(+12%, +12%);
+    background:whitesmoke;
+    height: 20px;
+    font-size: 10px;
+    border-radius: 20px;
+    padding:5px; 
+ 
+}
+
+.search-text {
+    border: none;
+    background: none;
+    outline: none;
 }

@@ -47,8 +47,21 @@ H
 
 
 ## Deployment
+The Website has been deployed using Github Pages
+https://g-dev-01.github.io/Chef/
+Github offers a hosting facility for static web pages and is quite straight forward if you have a Github account and repository for your code.
 
+Publishing may be done from any of the branches in a repository.
 
+I have used 'master' for this website.
+From the G-Dev-01 Repository, I clicked on settings and scrolled down to Github Pages in order to select the source, in this case this was the master main branch/root.
+
+Clicked on Save
+
+'The Chef' Website was automatically published on Github pages at the follwing link which was indicated on the settings page.
+https://g-dev-01.github.io/Chef/
+
+Github Pages is designed to host personal, organisation or project pages from a Github repository.
 
 ## Credits
 

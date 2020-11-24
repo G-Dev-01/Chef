@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="" alt="The Chef Logo"/>
+  <img src="https://github.com/G-Dev-01/Chef/blob/0e5f4988084876183e634f0654c9b66d6926d671/assets/images/white_logo_transparent_background.png?raw=true" alt="The Chef logo"/>
 </p>
 
 
-# The Chef Recipes Website
+# 'The Chef' Recipes Website
 
 From a stay-in dinner for one to that special festive dinner.
-The Chef is a website which enables the search for that special recipe 
+'The Chef' is a website which enables the search for that special recipe 
 during the planning of your event.
 
 Using 'key words' your search will return listings of beautifully illustrated recipies.
@@ -18,11 +18,23 @@ Planning your dinner event starts with a simple search at The Chef!!!
 
 
 ## UX
-The UX starts at 
+the UX is relatively simple comsyisting of a simgle page illustrated using a
+chopping board with measures of various food ingredients as an inviting backdrop to 'The Chef'
+A key word may be entered in order to search for meal recipes to facilitate the planning of a dinner event. 
+
 
 **Wireframes**
 
-H
+
+WEB :
+https://wireframe.cc/pro/pp/bdcc80648396815#6tkrsf29
+
+TABLET :
+https://wireframe.cc/pro/pp/bdcc80648396815#3pn35jok
+
+MOBILE :
+https://wireframe.cc/pro/pp/bdcc80648396815#11obhwul
+
 
 
 

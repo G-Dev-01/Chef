@@ -33,10 +33,10 @@ async function fetchAPI() {
 }
 
 function generateHTML(results) {
-  container.classList.remove("intro");
-  let generatedHTML = "";
+
+  let expectedresults = "";
   results.map((result) => {
-    generatedHTML += `
+    expectedresults += `
         <div class="item">
             <img src="${result.recipe.image}" alt="image">
              <div class="flex-container">
@@ -57,6 +57,7 @@ function generateHTML(results) {
              </p>
         </div>
         `;
-  });
+  }); 
+  console.log(expectedresults)
   searchOutcomeDiv.innerHTML = generatedHTML;
 }

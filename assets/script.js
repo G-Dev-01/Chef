@@ -1,5 +1,5 @@
 const searchForm = document.querySelector("form"),
-  searchOutcomeDiv = document.querySelector("#search-result"),
+  searchOutcomeDiv = document.querySelector(".search-results"),
   resultHeading = document.querySelector(".search-info");
 let searchQuery = "";
 const APP_ID = "def28225";

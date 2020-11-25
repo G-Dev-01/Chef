@@ -4,7 +4,8 @@ const searchForm = document.querySelector("form"),
 let searchQuery = "";
 const APP_ID = "def28225";
 const APP_key = "4d408cb8687d7bdbb15249b5c13b8c91";
-const baseURL = https://api.edamam.com/search?q=cake&app_id=${APP_ID}&app_key=${APP_key};
+const baseURL = `https://api.edamam.com/search?q=cake&app_id=${APP_ID}&app_key=${APP_key}`;
+
 function searchMeal(e) {
   e.preventDefault();
   searchQuery = e.target.querySelector("input").value;
@@ -12,7 +13,7 @@ function searchMeal(e) {
 }
 searchForm.addEventListener("submit", searchMeal);
 async function fetchAPI() {
-  const baseURL = https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&to=2;
+  const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&to=2`;
   const response = await fetch(baseURL);
   const data = await response.json();
   {
@@ -20,8 +21,10 @@ async function fetchAPI() {
     console.log(data);
     if (data.hits.length === 0) {
       resultHeading.innerHTML = <p>No Results!!! Please try again with different Keyword</p>;
-    } else {
-      resultHeading.innerHTML = <h2>Search result for '${searchQuery}'</h2>;
+    } 
+    
+    else {
+      resultHeading.innerHTML = <h2>Search result(s) for '${searchQuery}'</h2>;
     }
   }
 }

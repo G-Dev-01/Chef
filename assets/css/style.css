@@ -53,6 +53,7 @@
 
 .results {
     border: none;
+    text-indent: 5px;
     font-size: 18px;
     font-family: 'Gill Sans';
     background: none;

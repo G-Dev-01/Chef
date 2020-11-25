@@ -33,7 +33,7 @@ function generateHTML(results) {
   results.map((result) => {
     expectedresults += `
     <div class="col-sm-3 results">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 17rem;">
             <img class="card-img-top" src="${result.recipe.image}" alt="image">
              <div class="card-body">
               <h2 class="recipe-name">${result.recipe.label}</h2>

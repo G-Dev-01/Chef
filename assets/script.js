@@ -13,18 +13,18 @@ function searchMeal(e) {
 }
 searchForm.addEventListener("submit", searchMeal);
 async function fetchAPI() {
-  const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&to=2`;
+  const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&to=6`;
   const response = await fetch(baseURL);
   const data = await response.json();
   {
     generateHTML(data.hits);
     console.log(data);
     if (data.hits.length === 0) {
-      resultHeading.innerHTML = <p>No Results!!! Please try again with different Keyword</p>;
+      resultHeading.innerHTML = `<p>No Results!!! Please try again with different Keyword</p>`;
     } 
     
     else {
-      resultHeading.innerHTML = <h2>Search result(s) for '${searchQuery}'</h2>;
+      resultHeading.innerHTML = `<h2>Search result(s) for '${searchQuery}'</h2>`;
     }
   }
 }
@@ -32,7 +32,7 @@ let expectedresults = "";
 function generateHTML(results) {
   results.map((result) => {
     expectedresults += `
-    <div class="col-sm-6">
+    <div class="col-sm-3">
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="${result.recipe.image}" alt="image">
              <div class="card-body">

@@ -28,8 +28,9 @@ async function fetchAPI() {
     }
   }
 }
-let expectedresults = "";
-function generateHTML(results) {
+
+function generateHTML(results) { 
+    let expectedresults = "";
   results.map((result) => {
     expectedresults += `
     <div class="col-sm-3">

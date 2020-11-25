@@ -17,13 +17,12 @@ async function fetchAPI() {
   const response = await fetch(baseURL);
   const data = await response.json();
   {
-    generateHTML(data.hits);
-    console.log(data);
+  
     if (data.hits.length === 0) {
       resultHeading.innerHTML = `<p>No Results!!! Please try again with different Keyword</p>`;
-    } 
-    
-    else {
+    } else {
+          generateHTML(data.hits);
+    console.log(data);
       resultHeading.innerHTML = `<h2>Search result(s) for '${searchQuery}'</h2>`;
     }
   }

@@ -19,11 +19,11 @@ async function fetchAPI() {
   {
   
     if (data.hits.length === 0) {
-      resultHeading.innerHTML = `<h3>No Results!!! Please try again with different Keyword</h3>`;
+      resultHeading.innerHTML = `<h3 class="results-heading">No Results!!! Please try again with different Keyword</h3>`;
     } else {
           generateHTML(data.hits);
     console.log(data);
-      resultHeading.innerHTML = `<h2>Search result(s) for '${searchQuery}'</h2>`;
+      resultHeading.innerHTML = `<h2 class="results-heading">Search result(s) for '${searchQuery}'</h2>`;
     }
   }
 }
@@ -32,7 +32,7 @@ function generateHTML(results) {
     let expectedresults = "";
   results.map((result) => {
     expectedresults += `
-    <div class="col-sm-3">
+    <div class="col-sm-3 results">
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="${result.recipe.image}" alt="image">
              <div class="card-body">

@@ -19,7 +19,7 @@ async function fetchAPI() {
   {
   
     if (data.hits.length === 0) {
-      resultHeading.innerHTML = `<p>No Results!!! Please try again with different Keyword</p>`;
+      resultHeading.innerHTML = `<h3>No Results!!! Please try again with different Keyword</h3>`;
     } else {
           generateHTML(data.hits);
     console.log(data);
